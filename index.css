@@ -1,0 +1,46 @@
+.btns {
+    display: flex;
+  
+    flex-direction: row;
+  
+    margin-left: 40vw;
+  
+    padding: 1px;
+  }
+  
+  .btn button {
+    margin: 2px;
+    background-color: rgb(217, 213, 201);
+    padding: 2px;
+  }
+  .btn button :hover {
+    margin: 2px;
+    background-color: rgb(60, 189, 240);
+    padding: 2px;
+  }
+  
+  table {
+    border-collapse: collapse;
+    width: 90%;
+    margin: auto;
+  }
+  
+  th,
+  td {
+    text-align: left;
+    padding: 8px;
+    border: 1px solid #ddd;
+  }
+  th {
+    background-color: #f2f2f2;
+  }
+  
+  .delete-btn {
+    background-color: #f44336;
+    color: white;
+    padding: 8px 16px;
+    border: none;
+    cursor: pointer;
+    border-radius: 5px;
+  }
+  
